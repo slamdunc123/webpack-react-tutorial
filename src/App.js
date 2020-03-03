@@ -3,12 +3,13 @@ import ReactDOM from "react-dom";
 
 // components
 import Form from './js/components/Form';
+import UserForm from './js/components/UserForm';
 
 const App = () => {
     return (
         <div>
-            <Form />
-            
+            {/* <Form /> */}
+            <UserForm />
         </div>
     )
 }
