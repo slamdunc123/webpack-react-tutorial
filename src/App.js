@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from "react-dom";
 
 // components
-import Form from './js/components/Form';
-import UserForm from './js/components/UserForm';
+import Form from './components/partials/Form';
+import UserForm from './components/partials/UserForm';
 
 const App = () => {
     return (

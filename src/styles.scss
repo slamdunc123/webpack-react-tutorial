@@ -1,0 +1,29 @@
+// color variables
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$danger: #dc3545;
+$warning: #ffc107;
+$info: #17a2b8;
+$light: #f8f9fa;
+$dark: #343a40;
+
+body {
+	background-color: $light;
+	color: $dark;
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	background-color: $info;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	color: $light;
+	width: 10rem;
+	outline-style: none;
+
+	&:hover {
+		background-color: lighten($info, 5%);
+		color: darken($light, 10%);
+	}
+}
